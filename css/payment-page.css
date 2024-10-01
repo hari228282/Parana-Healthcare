@@ -1,0 +1,326 @@
+.payment-page .custom-width {
+    width: 70%;
+}
+
+.payment-page .bg {
+    background-image: url("../images/bg-png.png");
+    background-position: center;
+    background-size: contain;
+    padding: 80px 0px;
+}
+
+.payment-page .title {
+    color: #282828;
+    font-size: 24px;
+    position: relative;
+    overflow-wrap: break-word;
+    font-weight: bold;
+}
+
+.payment-page .title-underline {
+    border-color: rgb(34, 44, 45);
+    display: block;
+    width: 28px;
+    border-bottom: 5px solid;
+    margin-top: 20px;
+}
+
+.payment-page .description {
+    margin-top: 24px;
+    color: #282828;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.payment-page .description h2 {
+    color: #282828;
+    line-height: 1.5em;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.payment-page .description h3 {
+    color: #282828;
+    font-size: 1.17em;
+    line-height: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.payment-page .description p {
+    color: #282828;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.payment-page .description ul {
+    margin: 8px 0;
+}
+
+.payment-page .description li {
+    line-height: 20px;
+    margin-bottom: 10px;
+    color: #282828;
+}
+
+.payment-page .support-details {
+    margin-bottom: 40px;
+}
+
+.payment-page .support-details label {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #282828;
+    margin-bottom: 8px;
+}
+
+.payment-page .support-details>div .sub-detail {
+    line-height: 28px;
+}
+
+.payment-page .support-details svg {
+    fill: #282828;
+    width: 16px;
+    margin-right: 8px;
+}
+
+.payment-page .support-details a {
+    display: flex;
+    text-decoration: unset;
+    align-content: center;
+}
+
+.payment-page .support-details a div {
+    color: #282828;
+    font-size: 14px;
+}
+
+.payment-page .terms-details {
+    margin: 20px 0px;
+}
+
+.payment-page .terms-details .label {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #282828;
+    margin-bottom: 8px;
+}
+
+.payment-page .terms-details .details-value {
+    margin-top: 4px;
+    color: #282828;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.payment-box {
+    position: relative;
+}
+
+.payment-box .payment-box-inner {
+    padding: 30px 32px;
+    width: 480px;
+    float: right;
+    top: -22px;
+    border-radius: 2px;
+    box-shadow: 6px 11px 24px 0 rgb(23 31 37 / 12%);
+    background: #fff;
+    position: absolute;
+    right: -550px;
+    top: -140px;
+}
+
+.payment-box .payment-box-inner.payment-box2 {
+    top: -820px !important;
+}
+
+.payment-box .payment-box-inner .title h2 {
+    color: #282828;
+    overflow-wrap: break-word;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.payment-box .payment-box-inner .title-underline {
+    border-color: rgb(34, 44, 45);
+    display: block;
+    width: 28px;
+    border-bottom: 5px solid;
+    margin-top: 20px;
+}
+
+.payment-box .payment-box-inner .form-section {
+    margin-top: 36px;
+}
+
+.payment-box .payment-box-inner .form-group {
+    margin-bottom: 20px;
+}
+
+.payment-box .payment-box-inner .form-footer-payment {
+    min-height: 56px;
+    padding-left: 32px;
+    overflow: auto;
+    position: relative;
+    background: #f5f6f7;
+    text-align: center;
+}
+
+.payment-box .payment-box-inner .form-footer-payment #fin-logo {
+    margin-top: 20px;
+    width: 180px;
+    float: left;
+}
+
+.payment-box .payment-box-inner .form-footer-payment .btn {
+    position: relative;
+    width: 180px;
+    min-height: 56px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    float: right;
+    border-radius: 0;
+    text-align: center;
+    background-color: rgb(34, 44, 45);
+    color: #fff !important;
+}
+
+.apply-btn,
+.confirm-payment-btn,
+.payment-close-btn {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #fff;
+    background-color: #282828;
+    line-height: 1.6;
+    padding: 0.5rem 2rem;
+    border-radius: 5rem;
+    display: inline-block;
+    border: 0;
+    text-decoration: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-decoration: none;
+    -webkit-transition: .2s all ease-in-out;
+    transition: .2s all ease-in-out;
+}
+
+.apply-btn:hover,
+.confirm-payment-btn:hover,
+.payment-close-btn:hover {
+    color: #000;
+    background-color: #e1ecbb;
+    -webkit-transform: translateY(-3px) scale(1.01);
+    transform: translateY(-3px) scale(1.01);
+    -webkit-box-shadow: 1px 9px 10px -7px rgb(40 40 40 / 40%);
+    box-shadow: 1px 9px 10px -7px rgb(40 40 40 / 40%);
+}
+
+::placeholder {
+    text-transform: none;
+}
+
+.course-details {
+    word-wrap: break-word;
+}
+
+.moretext {
+    display: none;
+}
+
+.confirm-payment {
+    padding: 50px 0px;
+}
+
+.confirm-payment p {
+    margin-bottom: 1.5rem;
+}
+
+.thankyou {
+    padding: 50px 0px;
+}
+
+.thankyou h3 {
+    font-size: 20px;
+    
+}
+
+.thankyou .calendly-link {
+    color: #000;
+    text-decoration: underline;
+    margin-bottom: 1.2rem;
+    overflow-wrap: break-word;
+}
+
+.thankyou p {
+    margin-bottom: 1rem;
+}
+
+.thankyou h1
+{
+    margin-bottom: 1.5rem;
+}
+
+@media (320px <=width <=1200px) {
+    .payment-page .bg {
+        background-image: none;
+        padding: 40px 0px;
+    }
+    .payment-page .description h3 {
+        font-size: 14px;
+    }
+    .payment-page .title {
+        font-size: 20px;
+    }
+    .payment-page .custom-width {
+        width: 100%;
+    }
+    .payment-box .payment-box-inner {
+        width: 100%;
+        padding: 15px 15px;
+        margin-bottom: 20px;
+        position: unset;
+        right: unset;
+        top: unset;
+    }
+    .payment-box .payment-box-inner .form-section {
+        margin-top: 16px;
+    }
+    .payment-box .payment-box-inner .form-group {
+        margin-bottom: 5px;
+    }
+    .payment-box .payment-box-inner .form-footer-payment {
+        min-height: 56px;
+        padding-left: 0px;
+        overflow: auto;
+        position: relative;
+        background: unset;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-direction: row-reverse;
+        margin: 20px 0px;
+    }
+    .payment-box .payment-box-inner .form-footer-payment #fin-logo {
+        margin-top: 0px;
+        width: 186px;
+        float: left;
+        height: auto;
+        padding: 20px;
+        height: 50px;
+    }
+    .payment-box .payment-box-inner .form-footer-payment .btn {
+        width: 148px;
+        min-height: 45px;
+        font-weight: normal;
+    }
+    .payment-box .payment-box-inner .form-group label {
+        margin-bottom: 0rem;
+    }
+}

@@ -1,0 +1,257 @@
+/*----------quiz.css---------------*/
+
+.loanParamsLoader {
+    top: 143px;
+    margin: auto;
+    position: absolute;
+    right: 17%;
+    width: 135%;
+}
+
+.question {
+    background: #E1ECBB;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.question h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0px;
+}
+
+#quiz {
+    width: 60%;
+}
+
+.quiz-start ol li input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+/* .quiz-start ol li:hover label {
+    color: #c47c7c;
+} */
+
+
+/* .quiz-start ol li .check{
+  display: block;
+  position: absolute;
+  border: 5px solid #AAAAAA;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  top: 30px;
+  left: 20px;
+    z-index: 5;
+    transition: border .25s linear;
+    -webkit-transition: border .25s linear;
+} */
+
+
+/* .quiz-start ol li:hover .check {
+    border: 5px solid #E1ECBB;
+} */
+
+.quiz-start input[type=radio]:checked~label {
+    color: red;
+}
+
+#resolt-of-question th {
+    text-align: center;
+    background: #75ba48;
+    color: #fff;
+    padding: 18px;
+    font-size: 18px;
+    border: none;
+}
+
+#resolt-of-question td {
+    text-align: center;
+    color: #222;
+    background-color: #fff;
+    padding: 18px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid #75ba48;
+}
+
+#totalCorrect {
+    color: #fff;
+    background: #75ba48;
+    padding: 22px 20px;
+    border-radius: 1px;
+    font-stretch: expanded;
+    font-size: 28px;
+    font-weight: bold;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+#alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+.quiz-options {
+    padding: 20px 20px 20px 40px;
+}
+
+.quiz-options li {
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: 0.4s linear;
+    border-radius: 15px;
+}
+
+.quiz-options li::marker {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.quiz-options li .option-lable {
+    cursor: pointer;
+}
+
+.quiz-options li:hover {
+    background-color: #E1ECBB;
+    border-radius: 15px;
+}
+
+h3#yourDodh {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.get-email-btn,
+.close-btn {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #fff;
+    background-color: #282828;
+    line-height: 1.6;
+    padding: 0.5rem 2rem;
+    border-radius: 5rem;
+    display: inline-block;
+    border: 0;
+    text-decoration: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-decoration: none;
+    -webkit-transition: .2s all ease-in-out;
+    transition: .2s all ease-in-out;
+}
+
+.get-email-btn:hover,
+.close-btn:hover {
+    color: #000;
+    background-color: #e1ecbb;
+    -webkit-transform: translateY(-3px) scale(1.01);
+    transform: translateY(-3px) scale(1.01);
+    -webkit-box-shadow: 1px 9px 10px -7px rgb(40 40 40 / 40%);
+    box-shadow: 1px 9px 10px -7px rgb(40 40 40 / 40%);
+}
+
+#quizResult .form-control {
+    border-radius: 5rem;
+}
+
+#quizResult .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #E1ECBB;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #e1ecbbd1;
+}
+
+.close {
+    background: unset;
+    border: unset;
+    font-size: 1rem;
+}
+
+.close span {
+    font: 1.5rem !important;
+}
+
+@media (max-width: 768px) {
+    #quiz {
+        width: 100%;
+    }
+}
+
+
+/*Loader*/
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(#212c2c, #212c2c49);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.circle:before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(#212c2c, #212c2c49);
+    border-radius: 50%;
+    opacity: 0.7;
+    animation: loading 1.3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loading {
+    100% {
+        transform: scale(2, 2);
+        opacity: 0;
+    }
+}
+
+.circle:nth-child(2):before {
+    animation-delay: 0.3s;
+}
+
+.circle:nth-child(3):before {
+    animation-delay: 0.6s;
+}
+
+.circle:nth-child(4):before {
+    animation-delay: 0.9s;
+}
+
+.circle:nth-child(5):before {
+    animation-delay: 1.2s;
+}
+
+.loading-text {
+    width: 100%;
+    position: absolute;
+    top: 55%;
+    left: 0%;
+    text-align: center;
+}
