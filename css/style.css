@@ -142,12 +142,12 @@ body.active {
   text-decoration: none;
   color: #292728;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
   min-width: 3rem;
   min-height: 1.5rem;
   /* max-width: 6rem; */
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   -webkit-transition: 0.2s all linear;
   transition: 0.2s all linear;
 }
@@ -239,34 +239,25 @@ border-bottom: none;
 }
 
 .bestseller {
-    padding: 20px 0;
-    background-color: #e2bea4;
-    background-image: url('/images/bestseller/image%20402pattern.png');
-    background-repeat: no-repeat;
-    /* background-position: cover; Ensures the image is centered */
-    /* background-size: contain;   The image will scale within the container */
-    background-blend-mode: multiply; /* Blends the background color with the image */
-}
-
-
-
-
-.pattern-bg {
-   /* background-color:  #E2BEA4; */
+    padding-top: 20px;
+   background: url(/images/socialmedia/image\ 583.png) lightgray 60% / cover no-repeat;
+background-color: #dca67f; 
 }
 
 .bestseller .left-bar p {
-  font-family: Montserrat;
-font-size: 24.58px;
+font-size: 25px;
 font-weight: 500;
-line-height: 1.5;
+line-height: 1;
 letter-spacing: -0.01em;
-text-align: left;
 color: #3e665e;
 }
 
 .bestseller .left-bar img:nth-child(2) {
 vertical-align: bottom;
+width: 150px;
+height: auto;
+-webkit-box-shadow: 11px 20px 10px -12px #00000070;
+  box-shadow: 20px 20px 10px -12px #00000070;
 /* margin-top: 32px; */
  
 }
@@ -274,8 +265,621 @@ vertical-align: bottom;
 .bestseller .left-bar img:nth-child(3) {
   /* position: absolute; */
   margin-left: -20px;
+  width: 170px;
+  height: auto;
+  -webkit-box-shadow: 11px 20px 10px -12px #00000070;
+  box-shadow: 11px 20px 10px -12px #00000070;
 } 
 
+.bestseller .middle-bar h4 {
+  color: #3E665E;
+font-family: Cormorant;
+font-size: 26px;
+font-style: normal;
+font-weight: 900;
+line-height: 2;
+letter-spacing: 4.863px;
+text-transform: uppercase;
+}
+
+.bestseller .middle-bar h5 {
+  color: #B3222B;
+font-family: "Cormorant Garamond";
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 2;
+letter-spacing: -1.021px;
+}
+
+.bestseller .middle-bar h6 {
+  color: #3E665E;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.3;
+letter-spacing: -0.325px;
+}
+
+.bestseller .middle-bar a {
+  padding: 15px 20px 15px 20px;
+  background-color: #3E665E;
+color: #F7FFFF;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 5;
+letter-spacing: 0.647px;
+text-transform: uppercase;
+border-radius: 8px;
+text-decoration: none;
+}
+
+.bestseller .middle-bar a:hover {
+background-color: #fff;
+border: 1px solid #126A47;
+color: #1B3B31;
+transition: 0.5s ease-in-out;
+}
+
+.bestseller .right-bar {
+  text-align: right;
+}
+
+.bestseller .right-bar img:nth-child(1) {
+  box-shadow: 20px #dadada;
+      height: 380px;
+    width: 250px;
+    vertical-align: top;
+
+}
+
+.bestseller .right-bar img:nth-child(2) {
+ height: 70px;
+ width: auto;
+}
+
+.consultation-section {
+  padding: 20px 0;
+}
+
+.consultation-section .border-bottom {
+  border: 3px solid #3E665E;
+} 
+
+.consultation-section .left-bar h4 {
+  color: #3E665E;
+font-family: san;
+font-size: 50px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.3;
+text-align: left;
+padding-top: 20px;
+
+}
+
+.consultation-section .left-bar .bottom-border {
+  width: 80%;
+  border: 1px solid #3e665e;
+}
+
+.consultation-section .left-bar .patient-count {
+  display: flex;
+  padding: 15px;
+}
+
+.consultation-section .left-bar .patient-count h3 {
+  color: #3E665E;
+font-family: Montserrat;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.consultation-section .left-bar .patient-count  .patient-from p:nth-child(1) {
+   color: #000F0D;
+font-family: "Cormorant Garamond";
+font-size: 35px;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+padding-left: 20px;
+margin: 0;
+}
+
+.consultation-section .left-bar .patient-count  .patient-from p:nth-child(2) {
+  color: #000F0D;
+font-family: Montserrat;
+font-size: 35px;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+padding-left: 20px;
+
+}
+
+.consultation-section .left-bar .consultation-cta  {
+  padding-left: 50px;
+}
+
+.consultation-section .left-bar a {
+  padding: 10px 15px 10px 15px;
+  border-radius: 10.628px;
+background: #FFCD60;
+color: #126A47;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 3;
+text-transform: uppercase;
+text-align: center;
+text-decoration: none;
+}
+ 
+.consultation-section .right-bar .consultation-image img:nth-child(1) {
+  height: 135px;
+  width: auto;
+  margin: 0 10px;
+  border: 2px solid #3E665E;
+  border-radius: 50%;
+  vertical-align: baseline;
+}
+
+.consultation-section .right-bar .consultation-image img:nth-child(2) {
+   height: 135px;
+  width: auto;
+  margin: 0 10px;
+  border: 2px solid #3E665E;
+  border-radius: 50%;
+  vertical-align: baseline;
+} 
+
+.consultation-section .right-bar .consultation-image img:nth-child(3) {
+  height: 80%;
+  width: auto;
+} 
+
+.academy .left-bar .academy_img1 {
+  display: flex;
+}
+
+.academy .left-bar .academy_img1 .academy_image img {
+  margin: 5px;
+  height: 155px;
+  width: auto;
+}
+
+.academy .left-bar .academy_img2 {
+  display: flex;
+}
+
+.academy .left-bar .academy_img2 .academy_image img {
+  margin: 5px;
+  height: 155px;
+  width: auto;
+}
+
+.academy .right-bar .parana-academy-title {
+  color: #1B3B31;
+font-family: "Cormorant Garamond";
+font-size: 60px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+}
+
+.academy .right-bar {
+  padding: 0 50px;
+}
+
+.academy .right-bar .bottom-border {
+  width: 100%;
+  border: 1px solid #1A3A30;
+}
+
+.academy .right-bar .academy-students {
+  display: flex;
+  padding: 10px 10px;
+  text-align: center;
+  
+}
+
+.academy .right-bar .academy-students h3 {
+  color: #1B3B31;
+text-align: center;
+font-family: Montserrat;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.897px;
+}
+
+.academy .right-bar .academy-students .student-from-countries p {
+color: #1B3B31;
+font-family: "Cormorant Garamond";
+font-size: 30px;
+font-style: italic;
+font-weight: 500;
+line-height: 1;
+padding-left: 20px;
+margin: 0;
+letter-spacing: 0.1em;
+text-align: center;
+}
+
+.academy .right-bar .academy-students .student-from-countries p span {
+color: #1B3B31;
+font-family: Tahoma;
+font-size: 35px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.798px;
+text-align: center;
+}
+
+.gut_story {
+  background: linear-gradient(180deg, #EAEAEA 0%, #E4E5EA 21%, #F5F9FC 39%, #F8F7F5 100%);
+}
+
+.gut_story .left-bar {
+  text-align: center;
+  padding: 0 50px;
+}
+
+.gut_story .left-bar h3 {
+  color: #094D40;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 90px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 0;
+}
+
+.gut_story .left-bar p:nth-child(2) {
+  color: #094D40;
+font-family: "Cormorant Garamond";
+font-size: 42.438px;
+font-style: italic;
+font-weight: 500;
+line-height: 1.5;
+}
+
+.gut_story .left-bar p:nth-child(4) {
+  color: #9A2222;
+font-family: Montserrat;
+font-size: 33px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-top: 10px;
+}
+
+.gut_story .left-bar .border-bottom {
+  border: 2px solid #094D40;
+}
+
+.gut_story .left-bar .prodcast-media img {
+  padding: 20px 10px;
+}
+
+.social-media {
+background: url(/images/socialmedia/image\ 583.png) lightgray 60% / cover no-repeat;
+background-color: #e2bea4;
+}
+
+.social-media .left-bar img {
+  -webkit-box-shadow: 11px 20px 10px -12px #00000070;
+  box-shadow: 20px 20px 10px -30px #00000070;
+}
+
+.social-media .right-bar .followers {
+  display: flex;
+  align-items: baseline;
+}
+
+.social-media .right-bar .followers h3 {
+  color: #1B3B31;
+text-align: center;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.social-media .right-bar .followers p {
+  color: #1B3B31;
+text-align: center;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-left: 20px;
+}
+
+.social-media .right-bar p {
+  color: #1B3B31;
+font-family: "Cormorant Garamond";
+font-size: 35px;
+font-style: italic;
+font-weight: 700;
+line-height: 2;
+text-align: center;
+}
+
+.social-media .right-bar .social-mdia-handle {
+  text-align: center;
+}
+
+.social-media .right-bar .social-mdia-handle img {
+  padding: 0 5px;
+}
+.social-media .right-bar .social-mdia-handle img:nth-child(3) {
+  margin: 0 -30px;
+}
+
+.social-media .right-bar .social-mdia-handle img:nth-child(6) {
+  margin: 0 -15px;
+}
+
+.workshops {
+  padding: 80px 0;
+}
+
+.workshops .left-bar {
+  text-align: center;
+  padding: 0 30px;
+}
+
+.workshops .left-bar h6 {
+  color: #3E665E;
+font-family: "Cormorant Garamond";
+font-size: 60px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+}
+
+.workshops .left-bar .bottom-border {
+  width: 100%;
+  border: 1px solid #1B3B31;
+}
+
+.workshops .left-bar p {
+  color: #000;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 2;
+}
+
+.workshops .right-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.workshops .right-bar img {
+  width: 305px;
+  height: auto;
+}
+
+.award_honours .awards {
+  padding: 10px 0 80px 0;
+  border-top: 2px solid #3e665e;
+  border-bottom: 2px solid #3e665e;
+  text-align: center;
+} 
+
+.award_honours .awards h6 {
+  color: #3E665E;
+font-family: "Cormorant Garamond";
+font-size: 55px;
+font-style: normal;
+font-weight: 500;
+line-height: 2;
+}
+
+.award_honours .awards img {
+  height: 176px;
+  width: auto;
+  padding: 0 20px;
+}
+
+.ayurveda_detox_clinic {
+  padding: 50px 0;
+}
+
+.ayurveda_detox_clinic .left-bar img {
+  width: 315px;
+  height: auto;
+  padding: 0 5px;
+}
+
+.ayurveda_detox_clinic .right-bar h6 {
+  color: #3E665E;
+text-align: center;
+font-family: "Cormorant Garamond";
+font-size: 55px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.subscribe_form {
+  background-color:  #FFF2EB;
+  padding: 30px 0;
+}
+
+.subscribe_form .left-bar {
+  padding: 0 50px;
+}
+
+.subscribe_form .left-bar h6 {
+  color: #3E665E;
+font-family: "Cormorant Garamond";
+font-size: 42px;
+font-style: normal;
+font-weight: 500;
+line-height: 1;
+}
+
+.subscribe_form .right-bar {
+  padding: 0 50px;
+}
+.subscribe_form .right-bar form {
+  border: 2px solid #2d5641;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.subscribe_form .right-bar form input {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border: 1px solid #dadada;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.subscribe_form .right-bar form input::placeholder {
+  color: #a8a6a6;
+}
+
+.subscribe_form .right-bar form button {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #2d5641;
+  text-transform: uppercase;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.subscribe_form .left-bar p {
+  color: #9A2222;
+text-align: left;
+font-family: Montserrat;
+font-size: 29px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: -0.325px;
+}
+
+footer {
+  background-color: #2d5641;
+  margin: 40px 0 0 0;
+}
+
+footer .left-bar {
+
+  padding: 30px 0;
+}
+
+footer .left-bar h6 {
+  color: #FFF;
+font-family: "Cormorant Garamond";
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 2; 
+text-transform: uppercase;
+}
+
+footer .left-bar p {
+  color: #FFF;
+font-family: "Cormorant Garamond";
+font-size: 20px;
+font-style: normal;
+font-weight: 200;
+line-height: 1;
+}
+
+footer .left-bar p span {
+  color: #FFF;
+font-family: "Cormorant Garamond";
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 1;
+}
+
+footer .middle-bar  {
+  padding-top: 90px;
+}
+
+footer .middle-bar .contact {
+  display: flex;
+  padding: 7px 40px;
+  align-items: end;
+  border-left: 2px solid #fff;
+}
+
+footer .middle-bar .contact img {
+  border-radius: 50%;
+  height: 45px;
+  width: auto;
+}
+
+footer .middle-bar .contact p {
+  color: #FFF;
+font-family: "EB Garamond";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 1;
+letter-spacing: 2.013px;
+padding-left: 15px;
+}
+
+footer .middle-bar .location {
+  display: -webkit-box;
+  padding: 7px 40px;
+  border-left: 2px solid #fff;
+}
+
+footer .middle-bar .location p {
+  color: #FFF;
+font-family: "Cormorant Garamond";
+font-size: 22px;
+font-style: normal;
+font-weight: 300;
+line-height: 1.5;
+padding-left: 10px;
+}
+
+footer .right-bar {
+  text-align: center;
+  padding: 30px 0 50px 0;
+}
+
+footer .right-bar h3 {
+  color: #fff;
+  letter-spacing: 0.4em;
+  margin: 0;
+  padding-top: 10px;
+}
+
+footer .right-bar p {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
 
 .sidenav {
   position: fixed;
@@ -333,97 +937,6 @@ vertical-align: bottom;
 .backdrop.active {
   opacity: 1;
   visibility: visible;
-}
-
-.footer {
-  background-color: #fff;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.footer ul {
-  padding: 0;
-  margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  list-style: none;
-}
-
-.footer ul li {
-  margin: 0.5rem;
-}
-
-.footer ul li a {
-  display: block;
-  color: #282828;
-  font-size: 0.8rem;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 0.3re 0.2rem;
-  font-weight: 500;
-}
-
-.footer ul li a:hover {
-  text-decoration: underline;
-}
-
-.achievements {
-  background-color: #e1ecbb;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.achievements .col-6:nth-child(2) .achievements__inner {
-  border-left: 2px solid #4caf50;
-}
-
-.achievements__inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-.achievements__inner .number {
-  font-weight: 700;
-  color: #ed193e;
-  font-size: 3.5rem;
-  text-align: center;
-  padding-right: 1rem;
-}
-
-.achievements__inner .info {
-  text-align: center;
-}
-
-.achievements__inner .info p {
-  color: #292728;
-  font-size: 1.3rem;
-  font-weight: 700;
-  margin-bottom: 0;
-}
-
-.achievements__inner .info h4 {
-  color: #292728;
-  font-size: 1.5rem;
-  font-weight: 800;
-  margin-bottom: 0;
 }
 
 .awards {
@@ -501,754 +1014,6 @@ vertical-align: bottom;
   border-radius: 5px;
 }
 
-.healthcare {
-  position: relative;
-}
-
-.healthcare__inner {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.healthcare__inner h1 {
-  text-transform: uppercase;
-  font-weight: 500;
-  color: #292728;
-  font-size: 2rem;
-  letter-spacing: 1px;
-}
-
-.healthcare img {
-  width: 100%;
-}
-
-.shop {
-  position: relative;
-}
-
-.shop__inner {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.shop__inner h1 {
-  text-transform: uppercase;
-  font-weight: 500;
-  color: #fff;
-  font-size: 2rem;
-  letter-spacing: 1px;
-}
-
-.shop img {
-  width: 100%;
-}
-
-.academy {
-  position: relative;
-}
-
-.academy__inner {
-  position: absolute;
-  top: 60%;
-  left: 0;
-  right: 0;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.academy__inner h1 {
-  text-transform: uppercase;
-  font-weight: 500;
-  color: #292728;
-  font-size: 2rem;
-  letter-spacing: 1px;
-}
-
-.academy__inner p {
-  font-style: italic;
-  font-size: 1.5rem;
-}
-
-.academy__inner p img {
-  max-width: 12rem;
-  margin-left: 1rem;
-}
-
-.academy img {
-  width: 100%;
-}
-
-.ayurveda__shop {
-  position: relative;
-  height: 20rem;
-}
-
-.ayurveda__shop__inner {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.ayurveda__shop__inner .block {
-  max-width: 20%;
-  text-align: center;
-}
-
-.ayurveda__shop__inner .block h1 {
-  font-weight: 700;
-  color: #292728;
-  font-size: 2.3rem;
-  letter-spacing: 1px;
-}
-
-.ayurveda__shop__inner .block p {
-  font-style: italic;
-  font-size: 1.5rem;
-}
-
-.ayurveda__shop__inner .block a {
-  font-size: 1.3rem;
-  font-weight: 300;
-  color: #fff;
-  background-color: #282828;
-  line-height: 1.6;
-  padding: 0.5rem 2rem;
-  border-radius: 5rem;
-  display: inline-block;
-  border: 0;
-  text-decoration: none;
-  outline: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  text-decoration: none;
-  -webkit-transition: 0.2s all ease-in-out;
-  transition: 0.2s all ease-in-out;
-  font-weight: 700;
-  margin-top: 1rem;
-}
-
-.ayurveda__shop__inner .block a:hover {
-  color: #000;
-  background-color: #e1ecbb;
-  -webkit-transform: translateY(-3px) scale(1.01);
-  transform: translateY(-3px) scale(1.01);
-  -webkit-box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-  box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-}
-
-.ayurveda__shop__inner .block a:active {
-  color: #000;
-  background-color: #e1ecbb;
-}
-
-.ayurveda__shop img {
-  width: 100%;
-}
-
-.consultation__inner .title {
-  padding: 3rem 0 0;
-  color: #282828;
-}
-
-.consultation__inner .title p {
-  font-style: italic;
-}
-
-.consultation__inner .button a {
-  font-size: 1.3rem;
-  font-weight: 300;
-  color: #fff;
-  background-color: #080707;
-  line-height: 1.6;
-  padding: 0.5rem 2rem;
-  border-radius: 5rem;
-  display: inline-block;
-  border: 0;
-  text-decoration: none;
-  outline: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  text-decoration: none;
-  -webkit-transition: 0.2s all ease-in-out;
-  transition: 0.2s all ease-in-out;
-}
-
-.consultation__inner .button a:hover {
-  color: #000;
-  background-color: #e1ecbb;
-  -webkit-transform: translateY(-3px) scale(1.01);
-  transform: translateY(-3px) scale(1.01);
-  -webkit-box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-  box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-}
-
-.consultation__inner .button a:active {
-  color: #000;
-  background-color: #e1ecbb;
-}
-
-.consultation__inner__listing h3 {
-  font-weight: 700;
-  font-size: 1.7rem;
-  color: #282828;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  display: inline-block;
-  border-bottom: 1px solid #282828;
-}
-
-.consultation__inner__listing ul {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-  -ms-flex-align: baseline;
-  align-items: baseline;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding: 0;
-  margin: 0;
-}
-
-.consultation__inner__listing ul li {
-  width: 9vw;
-  margin: 2vw;
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-.consultation__inner__listing ul li a {
-  display: block;
-  text-decoration: none;
-}
-
-.consultation__inner__listing ul li a img {
-  border-radius: 50%;
-  -webkit-box-shadow: 8px 11px 10px 2px #4d4d4d1c;
-  box-shadow: 8px 11px 10px 2px #4d4d4d1c;
-}
-
-.consultation__inner__listing ul li a span {
-  margin-top: 1.3rem;
-  display: block;
-  color: #282828;
-  font-size: 1.1rem;
-}
-
-.treatments__block {
-  display: block;
-  text-decoration: none;
-}
-
-.treatments__block img {
-  height: 15rem;
-  width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-
-.learning {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.learning__list {
-  margin-bottom: 5rem;
-}
-
-.learning__list h4 {
-  color: #282828;
-  text-align: center;
-  font-weight: 700;
-}
-
-.learning__list ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.learning__list ul.first-row li:nth-child(1) a {
-  background: #acce92;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#acce92),
-    to(#76a154)
-  );
-  background: linear-gradient(180deg, #acce92 0, #76a154 100%);
-}
-
-.learning__list ul.first-row li:nth-child(2) a {
-  background: #92c2cd;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#92c2cd),
-    to(#5f9daa)
-  );
-  background: linear-gradient(180deg, #92c2cd 0, #5f9daa 100%);
-}
-
-.learning__list ul.second-row li:nth-child(1) a {
-  background: #ebd654;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#ebd654),
-    to(#d0b712)
-  );
-  background: linear-gradient(180deg, #ebd654 0, #d0b712 100%);
-}
-
-.learning__list ul.second-row li:nth-child(2) a {
-  background: #c67eac;
-  background: linear-gradient(163deg, #c67eac 0, #b26498 100%);
-}
-
-.learning__list ul.second-row li:nth-child(3) a {
-  background: #867fd2;
-  background: linear-gradient(163deg, #867fd2 0, #6760be 100%);
-}
-
-.learning__list ul.third-row li:nth-child(1) a {
-  background: #e7a352;
-  background: linear-gradient(163deg, #e7a352 0, #d07c16 100%);
-}
-
-.learning__list ul.third-row li:nth-child(2) a {
-  background: #acce92;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#acce92),
-    to(#76a154)
-  );
-  background: linear-gradient(180deg, #acce92 0, #76a154 100%);
-}
-
-.learning__list ul.third-row li:nth-child(3) a {
-  background: #ebd654;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#ebd654),
-    to(#d0b712)
-  );
-  background: linear-gradient(180deg, #ebd654 0, #d0b712 100%);
-}
-
-.learning__list ul.third-row li:nth-child(4) a {
-  background: #78c2af;
-  background: linear-gradient(163deg, #78c2af 0, #66af9c 100%);
-}
-
-.learning__list ul.fourth-row li:nth-child(1) a {
-  background: #ebd654;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#ebd654),
-    to(#d0b712)
-  );
-  background: linear-gradient(180deg, #ebd654 0, #d0b712 100%);
-}
-
-.learning__list ul.fourth-row li:nth-child(2) a {
-  background: #acce92;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#acce92),
-    to(#76a154)
-  );
-  background: linear-gradient(180deg, #acce92 0, #76a154 100%);
-}
-
-.learning__list ul.fourth-row li:nth-child(3) a {
-  background: #81c8b6;
-  background: linear-gradient(163deg, #81c8b6 0, #62a997 100%);
-}
-
-.learning__list ul.fourth-row li:nth-child(4) a {
-  background: #c67eac;
-  background: linear-gradient(163deg, #c67eac 0, #b26498 100%);
-}
-
-.learning__list ul.fourth-row li:nth-child(5) a {
-  background: #ccc3a2;
-  background: linear-gradient(163deg, #ccc3a2 0, #aba584 100%);
-}
-
-.learning__list ul.fifth-row li:nth-child(1) a {
-  background: #ccc3a2;
-  background: linear-gradient(163deg, #ccc3a2 0, #aba584 100%);
-}
-
-.learning__list ul.fifth-row li:nth-child(2) a {
-  background: #b194ce;
-  background: linear-gradient(163deg, #b194ce 0, #8862af 100%);
-}
-
-.learning__list ul.fifth-row li:nth-child(3) a {
-  background: #c67eac;
-  background: linear-gradient(163deg, #c67eac 0, #b26498 100%);
-}
-
-.learning__list ul.fifth-row li:nth-child(4) a {
-  background: #e59b43;
-  background: linear-gradient(163deg, #e59b43 0, #ce7a17 100%);
-}
-
-.learning__list ul.fifth-row li:nth-child(5) a {
-  background: #8984d3;
-  background: linear-gradient(163deg, #8984d3 0, #5f59b0 100%);
-}
-
-.learning__list ul.sixth-row li:nth-child(1) a {
-  background: #e4983e;
-  background: linear-gradient(163deg, #e4983e 0, #cf7b17 100%);
-}
-
-.learning__list ul.sixth-row li:nth-child(2) a {
-  background: #82bbc6;
-  background: linear-gradient(163deg, #82bbc6 0, #619fac 100%);
-}
-
-.learning__list ul.sixth-row li:nth-child(3) a {
-  background: #a17dc3;
-  background: linear-gradient(163deg, #a17dc3 0, #8a62b0 100%);
-}
-
-.learning__list ul.sixth-row li:nth-child(4) a {
-  background: #c37eab;
-  background: linear-gradient(163deg, #c37eab 0, #a45c8c 100%);
-}
-
-.learning__list ul.seven-row li:nth-child(1) a {
-  background: #82bbc6;
-  background: linear-gradient(163deg, #82bbc6 0, #619fac 100%);
-}
-
-.learning__list ul.seven-row li:nth-child(2) a {
-  background: #cbc2a1;
-  background: linear-gradient(163deg, #cbc2a1 0, #b6ad8c 100%);
-}
-
-.learning__list ul.seven-row li:nth-child(3) a {
-  background: #7871cd;
-  background: linear-gradient(163deg, #7871cd 0, #615bb4 100%);
-}
-
-.learning__list ul.eight-row li:nth-child(1) a {
-  background: #acce92;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#acce92),
-    to(#76a154)
-  );
-  background: linear-gradient(180deg, #acce92 0, #76a154 100%);
-}
-
-.learning__list ul.eight-row li:nth-child(2) a {
-  background: #78c2af;
-  background: linear-gradient(163deg, #78c2af 0, #66af9c 100%);
-}
-
-.learning__list ul li {
-  margin: 0.5rem 0.5rem;
-}
-
-.learning__list ul li a {
-  display: block;
-  padding: 0.4rem 2.5rem;
-  line-height: 1.6;
-  font-size: 1.1rem;
-  border-radius: 2rem;
-  background-color: #fff;
-  -webkit-box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-  box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-  color: #fff !important;
-}
-
-.learning__button h3 {
-  font-weight: 500;
-  font-size: 2.3rem;
-}
-
-.learning__button a {
-  font-size: 1.3rem;
-  font-weight: 300;
-  color: #fff;
-  background-color: #282828;
-  line-height: 1.6;
-  padding: 0.5rem 2rem;
-  border-radius: 5rem;
-  display: inline-block;
-  border: 0;
-  text-decoration: none;
-  outline: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  text-decoration: none;
-  -webkit-transition: 0.2s all ease-in-out;
-  transition: 0.2s all ease-in-out;
-}
-
-.learning__button a:hover {
-  color: #000;
-  background-color: #e1ecbb;
-  -webkit-transform: translateY(-3px) scale(1.01);
-  transform: translateY(-3px) scale(1.01);
-  -webkit-box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-  box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-}
-
-.learning__button a:active {
-  color: #000;
-  background-color: #e1ecbb;
-}
-
-.shop__block__inner {
-  height: 20rem;
-  position: relative;
-  overflow: hidden;
-}
-
-.shop__block__inner:hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-.shop__block__inner:before {
-  content: "";
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  left: 0;
-  background: #000;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(0, 0, 0, 0)),
-    to(rgba(0, 0, 0, 0.4402135854))
-  );
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0) 0,
-    rgba(0, 0, 0, 0.4402135854) 100%
-  );
-  border: 0.5rem solid #fff;
-}
-
-.shop__block__inner img {
-  -o-object-fit: cover;
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-  -webkit-transition: 0.2s all ease-in;
-  transition: 0.2s all ease-in;
-}
-
-.shop__block__inner .caption {
-  position: absolute;
-  left: 5%;
-  bottom: 10%;
-  z-index: 2;
-}
-
-.shop__block__inner .caption h3 {
-  color: #fff;
-  font-weight: 700;
-  font-size: 2rem;
-}
-
-.shop__block__inner .caption a {
-  font-size: 1.3rem;
-  font-weight: 300;
-  color: #000;
-  background-color: #fff;
-  line-height: 1.6;
-  padding: 0.5rem 2rem;
-  border-radius: 5rem;
-  display: inline-block;
-  border: 0;
-  text-decoration: none;
-  outline: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  text-decoration: none;
-  -webkit-transition: 0.2s all ease-in-out;
-  transition: 0.2s all ease-in-out;
-  font-weight: 800;
-  margin-top: 1rem;
-}
-
-.shop__block__inner .caption a:hover {
-  color: #000;
-  background-color: #e1ecbb;
-  -webkit-transform: translateY(-3px) scale(1.01);
-  transform: translateY(-3px) scale(1.01);
-  -webkit-box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-  box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-}
-
-.shop__block__inner .caption a:active {
-  color: #000;
-  background-color: #e1ecbb;
-}
-
-.press__inner {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.press__inner__image {
-  padding: 5%;
-}
-
-.press__inner__heading {
-  padding: 5%;
-  padding-right: 0;
-}
-
-.press__inner__heading h5 {
-  color: #ed193e;
-}
-
-.press__inner__heading p {
-  font-size: 1rem;
-  font-weight: 500;
-  letter-spacing: 1px;
-  color: #282828;
-}
-
-.workshop__inner {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.workshop__inner__image {
-  padding: 5%;
-}
-
-.workshop__inner__heading {
-  padding: 5%;
-  padding-left: 0;
-}
-
-.workshop__inner__heading h5 {
-  color: #f5ba44;
-}
-
-.workshop__inner__heading p {
-  font-size: 1rem;
-  font-weight: 500;
-  letter-spacing: 1px;
-  color: #282828;
-}
-
-.testimonials {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  overflow: hidden;
-  border-bottom-right-radius: 2rem;
-  border-bottom-left-radius: 2rem;
-  margin-bottom: -2rem;
-  position: relative;
-  z-index: 1;
-  background-color: #fff;
-}
-
-.testimonials__title {
-  margin-bottom: 3rem;
-}
-
-.testimonials__slider .slide {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-right: 1.5rem;
-}
-
-.testimonials__slider .slide .image {
-  text-align: center;
-}
-
-.testimonials__slider .slick-dots {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-top: 0;
-}
-
-.testimonials__slider .slick-dots li {
-  list-style: none;
-  margin: 0.5rem 0.5rem;
-}
-
-.testimonials__slider .slick-dots li.slick-active button {
-  background: #f5ba44;
-}
-
-.testimonials__slider .slick-dots li button {
-  font-size: 0;
-  width: 2.3rem;
-  background: #ededed;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  outline: 0;
-  height: 10px;
-  border-radius: 5px;
-}
 
 .peoples {
   padding-top: 2rem;
@@ -1267,6 +1032,10 @@ vertical-align: bottom;
   letter-spacing: 0.5rem;
   text-transform: uppercase;
   font-size: 1rem;
+}
+
+.peoples__slider {
+  display: flex;
 }
 
 .peoples__slider .slide {
@@ -1365,1527 +1134,4 @@ vertical-align: bottom;
   outline: 0;
   height: 10px;
   border-radius: 5px;
-}
-
-.team {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: #87d4aa;
-}
-
-.team__title {
-  margin-bottom: 2rem;
-}
-
-.team__title h2 {
-  font-weight: 300;
-  color: #fff;
-  font-size: 2.5rem;
-}
-
-.team__title h2 span {
-  font-weight: 800;
-}
-
-.team__slider {
-  padding-right: 10%;
-}
-
-.team__slider .slide {
-  margin-right: 1rem;
-  background-color: #fff;
-  border-radius: 2rem;
-  overflow: hidden;
-}
-
-.team__slider .slide .image {
-  border-bottom-left-radius: 2rem;
-  border-bottom-right-radius: 2rem;
-  overflow: hidden;
-}
-
-.team__slider .slide .caption {
-  padding: 1rem 1.5rem;
-}
-
-.team__slider .slide .caption h6 {
-  font-weight: 800;
-  font-size: 1.3rem;
-  margin-bottom: 0.3rem;
-}
-
-.team__slider .slide .caption p {
-  color: #282828;
-  margin-bottom: 0.5rem;
-}
-
-.team__slider .slide .caption a {
-  color: #46b0de;
-  font-size: 0.9rem;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.team__slider .slick-prev {
-  display: none !important;
-}
-
-.team__slider .slick-next {
-  font-size: 0;
-  width: 3rem;
-  height: 3rem;
-  background-color: #fff;
-  border-radius: 50%;
-  background: url(../images/home/next.png) no-repeat center/contain;
-  background-size: 1.3rem;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 2%;
-  background-color: #fff;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  outline: 0;
-}
-
-.team__slider .slick-dots {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-top: 2rem;
-  position: absolute;
-  left: 0;
-  right: 10%;
-}
-
-.team__slider .slick-dots li {
-  list-style: none;
-  margin: 1rem 0.5rem;
-}
-
-.team__slider .slick-dots li.slick-active button {
-  background: #fff;
-}
-
-.team__slider .slick-dots li button {
-  font-size: 0;
-  width: 4rem;
-  background: #69a584;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  outline: 0;
-  height: 10px;
-  border-radius: 5px;
-}
-
-.consultations {
-  padding-top: 3rem;
-  padding-bottom: 1rem;
-}
-
-.consultations__title {
-  margin-bottom: 4rem;
-}
-
-.consultations__title h2 {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-  font-weight: 600;
-  color: #282828;
-}
-
-.consultations__block {
-  margin-bottom: 3rem;
-}
-
-.consultations__block h3 {
-  color: #282828;
-  font-size: 1.4rem;
-}
-
-.consultations__block__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.consultations__block__link p {
-  margin: 0;
-}
-
-.consultations__block__link a {
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: #000;
-  background-color: #c0e0b9;
-  line-height: 1.6;
-  padding: 0.1rem 0.5rem;
-  border-radius: 0.5rem;
-  display: inline-block;
-  border: 0;
-  text-decoration: none;
-  outline: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  text-decoration: none;
-  -webkit-transition: 0.2s all ease-in-out;
-  transition: 0.2s all ease-in-out;
-  margin-left: 0.5rem;
-  -webkit-box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-  box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-}
-
-.consultations__block__link a:hover {
-  color: #fff;
-  background-color: #080707;
-  -webkit-transform: translateY(-3px) scale(1.01);
-  transform: translateY(-3px) scale(1.01);
-  -webkit-box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-  box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-}
-
-.consultations__block__link a:active {
-  color: #fff;
-  background-color: #080707;
-}
-
-.academics {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.academics__title {
-  margin-bottom: 3rem;
-}
-
-.academics__title p {
-  color: #58595b;
-}
-
-.academics__listing__block {
-  color: #58595b;
-  margin-bottom: 5rem;
-  padding-right: 2rem;
-}
-
-.academics__listing__block h3 {
-  color: #000;
-  margin-bottom: 0;
-}
-
-.academics__listing__block img {
-  margin-bottom: 1.5rem;
-  margin-top: 1rem;
-}
-
-.academics__listing__block p {
-  margin-bottom: 0.2rem;
-}
-
-.academics__listing__block a {
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: #000;
-  background-color: #c0e0b9;
-  line-height: 1.6;
-  padding: 0.1rem 0.5rem;
-  border-radius: 0.5rem;
-  display: inline-block;
-  border: 0;
-  text-decoration: none;
-  outline: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  text-decoration: none;
-  -webkit-transition: 0.2s all ease-in-out;
-  transition: 0.2s all ease-in-out;
-  -webkit-box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-  box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-  margin-top: 1.2rem;
-}
-
-.academics__listing__block a:hover {
-  color: #fff;
-  background-color: #080707;
-  -webkit-transform: translateY(-3px) scale(1.01);
-  transform: translateY(-3px) scale(1.01);
-  -webkit-box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-  box-shadow: 1px 9px 10px -7px rgba(40, 40, 40, 0.4);
-}
-
-.academics__listing__block a:active {
-  color: #fff;
-  background-color: #080707;
-}
-
-.alumni {
-  background-color: #e1ecbb;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
-.alumni__title {
-  margin-bottom: 1.5rem;
-}
-
-.alumni__title h2 {
-  color: #000;
-  font-weight: 600;
-  font-size: 2.5rem;
-}
-
-.alumni__slider .slide {
-  margin-right: 1.5rem;
-  position: relative;
-}
-
-.alumni__slider .slide .image {
-  max-width: 30rem;
-}
-
-.alumni__slider .slide .caption {
-  position: absolute;
-  left: 1rem;
-  bottom: 1rem;
-  padding: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  z-index: 1;
-}
-
-.alumni__slider .slide .caption h6 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 0;
-}
-
-.alumni__slider .slide .caption p {
-  margin-bottom: 0;
-  color: #fff;
-}
-
-.alumni__slider .slick-dots {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-top: 0;
-  position: absolute;
-  left: 0;
-  right: 10%;
-}
-
-.alumni__slider .slick-dots li {
-  list-style: none;
-  margin: 1rem 0.5rem;
-}
-
-.alumni__slider .slick-dots li.slick-active button {
-  background: #fff;
-}
-
-.alumni__slider .slick-dots li button {
-  font-size: 0;
-  width: 1rem;
-  background: #69a584;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  outline: 0;
-  height: 1rem;
-  border-radius: 50%;
-}
-
-.masterclass {
-  margin-top: 1rem;
-  background-color: #e1ecbb;
-  padding-top: 3rem;
-  padding-bottom: 4rem;
-}
-
-.masterclass__slider .slide {
-  margin-right: 1.5rem;
-  position: relative;
-}
-
-.masterclass__slider .slide .image:hover .playbtn {
-  -webkit-transform: scale(1.1) translate(-50%, -50%);
-  transform: scale(1.1) translate(-50%, -50%);
-}
-
-.masterclass__slider .slide .image .playbtn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  cursor: pointer;
-  max-width: 4rem;
-  -webkit-transition: 0.2s all ease-in-out;
-  transition: 0.2s all ease-in-out;
-}
-
-.masterclass__slider .slick-dots {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-top: 0;
-  position: absolute;
-  left: 0;
-  right: 10%;
-}
-
-.masterclass__slider .slick-dots li {
-  list-style: none;
-  margin: 1rem 0.5rem;
-}
-
-.masterclass__slider .slick-dots li.slick-active button {
-  background: #fff;
-}
-
-.masterclass__slider .slick-dots li button {
-  font-size: 0;
-  width: 1rem;
-  background: #69a584;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  outline: 0;
-  height: 1rem;
-  border-radius: 50%;
-}
-
-#video__modal .close {
-  position: absolute;
-  right: 0;
-  height: 2rem;
-  width: 2rem;
-  border: 0;
-  font-size: 1.2rem;
-  opacity: 1;
-  z-index: 1;
-}
-
-#video__modal .modal-body {
-  padding: 0;
-}
-
-#video__modal .modal-content {
-  background-color: transparent;
-  border-radius: 0;
-  border: 0;
-}
-
-.banner__inner .caption {
-  color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-.banner__inner .caption h2 {
-  font-weight: 700;
-  font-size: 4.6rem;
-  text-align: center;
-  padding-right: 1rem;
-  margin-bottom: 0;
-}
-
-.banner__inner .caption h3 {
-  font-size: 1.6rem;
-  font-weight: 700;
-  margin-bottom: 0;
-  text-transform: uppercase;
-}
-
-.ayurveda {
-  background-color: #f1e5ef;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.ayurveda__gallery .title {
-  color: #282828;
-  margin-bottom: 2rem;
-}
-
-.ayurveda__gallery .title h2 {
-  font-weight: 600;
-  font-size: 2.2rem;
-}
-
-.ayurveda__gallery__slider .slide {
-  margin-right: 1rem;
-}
-
-.ayurveda__gallery__slider .slick-prev {
-  font-size: 0;
-  width: 3rem;
-  height: 3rem;
-  background-color: #fff;
-  border-radius: 50%;
-  background: url(../images/home/next.png) no-repeat center/contain;
-  background-size: 1.3rem;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%) rotate(180deg);
-  transform: translateY(-50%) rotate(180deg);
-  left: 0;
-  background-color: #fff;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  outline: 0;
-  border: 1px solid #ccc;
-  z-index: 1;
-  -webkit-transform-origin: center;
-  transform-origin: center;
-}
-
-.ayurveda__gallery__slider .slick-prev.slick-disabled {
-  display: none !important;
-}
-
-.ayurveda__gallery__slider .slick-next {
-  font-size: 0;
-  width: 3rem;
-  height: 3rem;
-  background-color: #fff;
-  border-radius: 50%;
-  background: url(../images/home/next.png) no-repeat center/contain;
-  background-size: 1.3rem;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 0;
-  background-color: #fff;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  outline: 0;
-  border: 1px solid #ccc;
-  z-index: 1;
-}
-
-.ayurveda__gallery__slider .slick-next.slick-disabled {
-  display: none;
-}
-
-.alumni1 {
-  background-color: #87d4aa;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.ayurveda__gallery .title {
-  color: #282828;
-  margin-bottom: 2rem;
-}
-
-.ayurveda__gallery .title h2 {
-  font-weight: 600;
-  font-size: 2.2rem;
-}
-
-.ayurveda__gallery__slider .slide {
-  margin-right: 1rem;
-}
-
-.ayurveda__gallery__slider .slick-prev {
-  font-size: 0;
-  width: 3rem;
-  height: 3rem;
-  background-color: #fff;
-  border-radius: 50%;
-  background: url(../images/home/next.png) no-repeat center/contain;
-  background-size: 1.3rem;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%) rotate(180deg);
-  transform: translateY(-50%) rotate(180deg);
-  left: 0;
-  background-color: #fff;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  outline: 0;
-  border: 1px solid #ccc;
-  z-index: 1;
-  -webkit-transform-origin: center;
-  transform-origin: center;
-}
-
-.ayurveda__gallery__slider .slick-prev.slick-disabled {
-  display: none !important;
-}
-
-.ayurveda__gallery__slider .slick-next {
-  font-size: 0;
-  width: 3rem;
-  height: 3rem;
-  background-color: #fff;
-  border-radius: 50%;
-  background: url(../images/home/next.png) no-repeat center/contain;
-  background-size: 1.3rem;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 0;
-  background-color: #fff;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  outline: 0;
-  border: 1px solid #ccc;
-  z-index: 1;
-}
-
-.ayurveda__gallery__slider .slick-next.slick-disabled {
-  display: none;
-}
-
-.panchkarma {
-  padding-top: 4rem;
-  padding-bottom: 3rem;
-}
-
-.panchkarma__inner {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.panchkarma__inner .title {
-  color: #282828;
-  margin-bottom: 3rem;
-}
-
-.panchkarma__inner .title h1 {
-  font-weight: 600;
-  font-size: 2.5rem;
-}
-
-.panchkarma__inner__slider .slide {
-  margin-right: 1rem;
-  position: relative;
-}
-
-.panchkarma__inner__slider .slide:last-child {
-  margin-right: 0;
-}
-
-.panchkarma__inner__slider .slide:hover .playbtn {
-  -webkit-transform: scale(1.1) translate(-50%, -50%);
-  transform: scale(1.1) translate(-50%, -50%);
-}
-
-.panchkarma__inner__slider .slide .playbtn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%) scale(1);
-  transform: translate(-50%, -50%) scale(1);
-  z-index: 1;
-  cursor: pointer;
-  max-width: 4rem;
-  -webkit-transition: 0.2s all ease-in-out;
-  transition: 0.2s all ease-in-out;
-}
-
-.panchkarma__inner__slider .slick-prev {
-  font-size: 0;
-  width: 3rem;
-  height: 3rem;
-  background-color: #fff;
-  border-radius: 50%;
-  background: url(../images/home/next.png) no-repeat center/contain;
-  background-size: 1.3rem;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%) rotate(180deg);
-  transform: translateY(-50%) rotate(180deg);
-  left: 0;
-  background-color: #fff;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  outline: 0;
-  border: 1px solid #ccc;
-  z-index: 1;
-  -webkit-transform-origin: center;
-  transform-origin: center;
-}
-
-.panchkarma__inner__slider .slick-prev.slick-disabled {
-  display: none !important;
-}
-
-.panchkarma__inner__slider .slick-next {
-  font-size: 0;
-  width: 3rem;
-  height: 3rem;
-  background-color: #fff;
-  border-radius: 50%;
-  background: url(../images/home/next.png) no-repeat center/contain;
-  background-size: 1.3rem;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 0;
-  background-color: #fff;
-  border: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  outline: 0;
-  border: 1px solid #ccc;
-  z-index: 1;
-}
-
-.panchkarma__inner__slider .slick-next.slick-disabled {
-  display: none;
-}
-
-.ailments {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.ailments__inner {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.ailments__inner h3 {
-  font-size: 3.5rem;
-  font-weight: 600;
-  color: #282828;
-  margin-bottom: 2rem;
-}
-
-.ailments__inner h4 {
-  font-size: 1.7rem;
-  color: #282828;
-}
-
-.ailments__inner h5 {
-  text-transform: uppercase;
-  font-size: 1rem;
-  color: #5a5b5c;
-  font-weight: 600;
-}
-
-.ailments__inner h6 {
-  font-size: 0.9rem;
-  color: #5a5b5c;
-  font-weight: 600;
-  line-height: 2;
-  margin-bottom: 2rem;
-}
-
-.ailments__inner .image {
-  margin: 2rem 0 3rem;
-}
-
-.ailments__inner p {
-  padding-left: 3rem;
-  line-height: 2.6;
-}
-
-.ailments__inner__listing h4 {
-  font-size: 0.9rem;
-  color: #5a5b5c;
-  font-weight: 600;
-  line-height: 1.6;
-  margin-bottom: 0.8rem;
-}
-
-.ailments__inner__listing ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  margin-bottom: 2rem;
-}
-
-.ailments__inner__listing ul li {
-  font-size: 0.8rem;
-  color: #5a5b5c;
-  font-weight: 400;
-  line-height: 1.6;
-  margin-bottom: 0.5rem;
-  list-style-position: outside;
-  position: relative;
-  padding-left: 1.7rem;
-}
-
-.ailments__inner__listing ul li:before {
-  content: "";
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  background: url(../images/ayurveda/list-style.png) no-repeat center/contain;
-  left: 0;
-  top: 1px;
-}
-
-.aboutayurveda {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.aboutayurveda__inner {
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.aboutayurveda__inner h3 {
-  font-size: 1.7rem;
-  color: #282828;
-}
-
-.aboutayurveda__inner h4 {
-  font-size: 3.5rem;
-  font-weight: 600;
-  color: #282828;
-  margin-bottom: 2rem;
-}
-
-.aboutayurveda__inner p {
-  padding-left: 3rem;
-  line-height: 2.6;
-}
-
-.banner {
-  position: relative;
-}
-
-.banner__inner {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  right: 0;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.banner__inner h1 {
-  text-transform: uppercase;
-  font-weight: 500;
-  color: #fff;
-  font-size: 2rem;
-  letter-spacing: 1px;
-}
-
-.contact {
-  padding-top: 3rem;
-  padding-bottom: 0rem;
-}
-
-.contact__title {
-  margin-top: 2rem;
-  margin-bottom: 3rem;
-}
-
-.contact__content__left .block a {
-  color: #282828;
-  text-decoration: none;
-  display: block;
-}
-
-.contact__content__right .block a {
-  color: #282828;
-  text-decoration: none;
-  display: block;
-}
-
-.section-top-bottom-padding {
-  padding-top: 5rem;
-  padding-bottom: 3rem;
-}
-
-.tnc__title h1 {
-  font-size: 2rem;
-  margin-bottom: 5rem;
-  font-weight: 600;
-  color: #282828;
-}
-
-.tnc-content {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-
-.tnc-content h2 {
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-  font-weight: 600;
-  color: #282828;
-}
-
-.tnc-content h3 {
-  font-size: 1rem;
-  margin-bottom: 1.5rem;
-  font-weight: 600;
-  color: #282828;
-}
-
-.tnc-content p,
-.tnc-content ul li {
-  font-size: 1rem;
-  color: #282828;
-}
-
-
-.treatmentspara {
-  color: #000f0d;
-  /* font-family: 'Montserrat'; */
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
-}
-.pleasenoteparatreatments > span {
-  color: #9a2222;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 120%; /* 34.348px */
-}
-.pleasenoteparatreatments {
-  color: #9a2222;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
-}
-
-
-@media only screen and (max-width: 1366px) {
-  .header nav ul li {
-    margin: 0 1rem;
-  }
-  .header nav ul li a {
-    font-size: 0.8rem;
-  }
-  .header nav ul li.logo {
-    max-width: 7rem;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .header nav ul li {
-    margin: 0 0.5rem;
-  }
-  .shop__block__inner {
-    height: 20rem;
-  }
-  .consultation__inner .button a {
-    padding: 0.5rem 1rem;
-    font-size: 1.1rem;
-  }
-  .consultation__inner__listing ul li {
-    width: 12vw;
-  }
-  .header nav ul li.logo {
-    max-width: 4rem;
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  .abhirowgap {
-    flex-direction: column;
-    gap: 20px;
-    margin-bottom: 20px;
-  }
-  .playbtn_abhiyoutube {
-    position: absolute;
-    top: 8%;
-    left: 35%;
-  }
-  .primary-heading {
-    font-size: 2rem;
-  }
-  .workshop__inner {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse;
-  }
-  .press__inner__heading,
-  .workshop__inner__heading {
-    padding-left: 5%;
-  }
-  .press__inner__image,
-  .workshop__inner__image {
-    padding: 0 5%;
-  }
-  .shop__block__inner {
-    height: 20rem;
-  }
-  .shop__block__inner .caption h3 {
-    font-weight: 600;
-    font-size: 2rem;
-  }
-  .testimonials__title {
-    margin-bottom: 0;
-  }
-  .testimonials {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-  .ayurveda__shop__inner .block h1 br {
-    display: none;
-  }
-  .consultation__inner .button a {
-    padding: 0.5rem 0.8rem;
-    font-size: 0.9rem;
-  }
-  .ayurveda__shop__inner .block {
-    max-width: 70%;
-    text-align: left;
-  }
-  .ayurveda__shop__inner .block h1 {
-    font-size: 2rem;
-  }
-  .ayurveda__shop__inner .block a {
-    font-size: 1.2rem;
-    padding: 0.4rem 1rem;
-    font-weight: 500;
-    margin-top: 0.5rem;
-  }
-  .learning__list ul li a {
-    padding: 0.4rem 1rem;
-    font-size: 1rem;
-  }
-  .awards__slider .slick-dots {
-    margin-top: 0;
-  }
-  .achievements__inner .info h4 {
-    font-size: 1.3rem;
-  }
-  .achievements__inner .number {
-    font-size: 2.3rem;
-    line-height: 1;
-    padding-left: 0.5rem;
-  }
-  .desktopnav {
-    display: none;
-  }
-  .mobilenav,
-  .sidenav {
-    display: block;
-  }
-  .panchkarma {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-  .panchkarma__inner .title h1 {
-    font-size: 2rem;
-  }
-  .aboutayurveda {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .aboutayurveda__inner h3 {
-    font-size: 1.2rem;
-  }
-  .aboutayurveda__inner h4 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  .ailments {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .ailments__inner h3 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .mobilenav__logo img {
-    max-width: 4rem;
-  }
-  .mobilenav {
-    padding-bottom: 0.5rem;
-  }
-  .team__slider .slick-next {
-    width: 2rem;
-    height: 2rem;
-  }
-  .team__slider .slide .caption p {
-    font-size: 0.7rem;
-  }
-  .team__slider .slide .caption h6 {
-    font-size: 0.7rem;
-  }
-  .team__title {
-    margin-bottom: 1rem;
-  }
-  .team__slider .slick-dots {
-    margin-top: 0;
-  }
-  .team__slider .slick-dots li button {
-    width: 2rem;
-  }
-  .team__title h2 {
-    font-size: 1.5rem;
-  }
-  .team {
-    padding-top: 3rem;
-    padding-bottom: 4rem;
-  }
-  .peoples__slider .slick-dots li button {
-    width: 2rem;
-  }
-  .peoples {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .slick-slider {
-    padding: 0;
-  }
-  .peoples__slider .slide .caption p {
-    font-size: 0.7rem;
-  }
-  .peoples__slider .slide .caption h6 {
-    font-size: 0.7rem;
-  }
-  .peoples__slider .slide .caption {
-    padding: 0.5rem 0.6rem;
-  }
-  .peoples__slider .slide {
-    margin-right: 0.5rem;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    margin-bottom: 0.5rem;
-  }
-  .peoples__title {
-    margin-bottom: 1rem;
-  }
-  .peoples__title h2 {
-    font-size: 1rem;
-    letter-spacing: 0.2rem;
-  }
-  .testimonials__slider .slick-dots {
-    margin: 0;
-    padding: 0;
-  }
-  .testimonials__slider .slide {
-    margin-right: 0;
-  }
-  .awards__slider ul {
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }
-  .academy__inner h1 {
-    font-size: 1rem;
-  }
-  .healthcare__inner h1 {
-    font-size: 1.3rem;
-  }
-  .primary-heading {
-    font-size: 1rem;
-  }
-  .ayurveda__shop__inner .block a,
-  .learning__button a {
-    font-size: 1rem;
-    padding: 0.2rem 1rem;
-  }
-  .ayurveda__shop__inner .block h1 {
-    font-size: 1rem;
-  }
-  .shop__block__inner .caption a {
-    padding: 0.2rem 1rem;
-    font-size: 1rem;
-    margin-top: 0;
-  }
-  .shop__block__inner .caption h3 {
-    font-size: 1rem;
-  }
-  .learning {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .learning__button a {
-    margin-top: 0 !important;
-  }
-  .shop__block__inner {
-    height: 10rem;
-  }
-  .awards__slider .slide {
-    margin: 0 0.2rem;
-  }
-  .awards__title h2 {
-    font-size: 1rem;
-    letter-spacing: 0.2rem;
-  }
-  .awards__slider .slide .image img {
-    max-width: 3rem;
-  }
-  .sidenav {
-    width: 90%;
-  }
-  .sidenav ul li a {
-    font-size: 1.1rem;
-  }
-  .healthcare {
-    height: 6rem;
-  }
-  .healthcare img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: 75% 50%;
-    object-position: 75% 50%;
-  }
-  .consultation__inner .title {
-    padding: 1rem 0 0;
-  }
-  .consultation__inner__listing ul li {
-    width: 15.5vw;
-    margin: 3vw;
-  }
-  .consultation__inner__listing ul li a span {
-    font-size: 0.7rem;
-  }
-  .academy {
-    height: 10rem;
-  }
-  .academy img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: 50% 50%;
-    object-position: 50% 50%;
-  }
-  .academy__inner p img {
-    max-width: 8rem;
-  }
-  .academy__inner p {
-    font-size: 1rem;
-  }
-  .learning__list ul {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  .learning__list ul li {
-    width: 40%;
-    text-align: center;
-    margin: 0.5rem 0.4rem;
-  }
-  .learning__list ul li a {
-    font-size: 0.8rem;
-    padding: 0.4rem 0.5rem;
-  }
-  .learning__list {
-    margin-bottom: 2rem;
-  }
-  .learning__button h3 {
-    font-size: 1.5rem;
-    margin-bottom: 2rem !important;
-  }
-  .ayurveda__shop,
-  .shop {
-    height: 10rem;
-  }
-  .shop img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: 35% 50%;
-    object-position: 35% 50%;
-  }
-  .ayurveda__shop img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: 50% 50%;
-    object-position: 50% 50%;
-  }
-  .press__inner__heading p,
-  .workshop__inner__heading p {
-    font-size: 0.9rem;
-    letter-spacing: 0;
-  }
-  .testimonials__slider .slide {
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  .testimonials__slider .slide .image {
-    width: 100%;
-    text-align: center;
-    padding: 0;
-  }
-  .testimonials__slider .slide .image img {
-    float: none;
-    margin: auto;
-  }
-  .testimonials__slider .slide .caption {
-    width: 100%;
-    padding-left: 0;
-  }
-  .testimonials__slider .slide .image:before {
-    width: 48%;
-    height: 2px;
-    top: auto;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    right: 0;
-    -webkit-transform: none;
-    transform: none;
-  }
-  .testimonials__slider .slide .caption {
-    margin-top: 2rem;
-  }
-  .team__slider .slick-next {
-    right: 0;
-  }
-  .press {
-    margin-bottom: 2rem;
-  }
-  .shop__block__inner:before {
-    border-bottom: 0;
-  }
-  .achievements__inner .number {
-    font-size: 1.5rem;
-    padding-right: 0;
-    width: 100%;
-  }
-  .achievements__inner .info p {
-    font-size: 1rem;
-  }
-  .achievements__inner {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-  .consultation__inner__listing h3 {
-    font-size: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  .achievements__inner .info h4 {
-    font-size: 1rem;
-  }
-  .consultations__title h2 {
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-  }
-  .consultations {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .consultations__title {
-    margin-bottom: 0;
-  }
-  .consultations__block h3 {
-    font-size: 1.3rem;
-  }
-  .paragraph {
-    font-size: 0.9rem;
-  }
-  .banner {
-    height: 10rem;
-  }
-  .banner img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: 80% 50%;
-    object-position: 80% 50%;
-  }
-  .banner__inner h1 {
-    font-size: 1rem;
-  }
-  .contact {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .secondary-heading {
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-  .contact__title {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-  }
-  .tertiary-heading {
-    font-size: 1.1rem;
-  }
-  .ayurveda {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .banner__inner .caption h2 {
-    font-size: 2rem;
-    width: 100%;
-    text-align: left;
-  }
-  .banner__inner .caption h3 {
-    font-size: 1.2rem;
-    text-align: left;
-  }
-  .ayurveda__gallery .title h2 {
-    font-size: 1.3rem;
-  }
-  .ayurveda__gallery .title {
-    margin-bottom: 1rem;
-  }
-  .panchkarma {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .panchkarma__inner .title h1 {
-    font-size: 2rem;
-    line-height: 1.2;
-  }
-  .panchkarma__inner .title {
-    margin-bottom: 1rem;
-  }
-  .ayurveda__gallery__slider .slick-next,
-  .ayurveda__gallery__slider .slick-prev,
-  .panchkarma__inner__slider .slick-next,
-  .panchkarma__inner__slider .slick-prev {
-    width: 2rem;
-    height: 2rem;
-  }
-  .aboutayurveda {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .aboutayurveda__inner h4 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  .aboutayurveda__inner p {
-    padding-left: 1rem;
-  }
-  .ailments {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  .ailments__inner h3 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  .aboutayurveda__inner h3,
-  .ailments__inner h4 {
-    font-size: 1.2rem;
-  }
-  .section-top-bottom-padding {
-    padding-top: 3rem;
-    padding-bottom: 0rem;
-  }
-  .tnc__title h1 {
-    font-size: 1.5rem;
-    margin-bottom: 4rem;
-  }
-  .tnc-content h2 {
-    font-size: 1rem;
-  }
-  .tnc-content p {
-    font-size: 0.87rem;
-    color: #282828;
-  }
-}
-
-.submit-btn {
-  font-size: 1rem;
-  font-weight: 300;
-  color: #fff;
-  background-color: #282828;
-  line-height: 1.6;
-  padding: 0.5rem 2rem;
-  border-radius: 5rem;
-  display: inline-block;
-  border: 0;
-  text-decoration: none;
-  outline: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  text-decoration: none;
-  -webkit-transition: 0.2s all ease-in-out;
-  transition: 0.2s all ease-in-out;
-}
-
-.submit-btn:hover {
-  color: #000;
-  background-color: #e1ecbb;
-  -webkit-transform: translateY(-3px) scale(1.01);
-  transform: translateY(-3px) scale(1.01);
-  -webkit-box-shadow: 1px 9px 10px -7px rgb(40 40 40 / 40%);
-  box-shadow: 1px 9px 10px -7px rgb(40 40 40 / 40%);
-}
-
-.form-control {
-  border-radius: 5rem;
-}
-
-.form-control:focus {
-  color: #212529;
-  background-color: #fff;
-  border-color: #e1ecbb;
-  outline: 0;
-  box-shadow: 0 0 0 0.25rem #e1ecbbd1;
-}
-
-.course-form .main-form {
-  padding: 50px 0px;
-}
-
-.course-form .main-form .form-title {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.form-group {
-  margin-bottom: 1rem;
-}
-
-.form-group label {
-  margin-bottom: 0.5rem;
-  font-weight: 600;
 }
