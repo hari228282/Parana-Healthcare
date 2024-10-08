@@ -1,0 +1,567 @@
+@media screen and (max-width: 1400px) {
+   
+     .bestseller .middle-bar h5 {
+        font-size: 28px;
+        letter-spacing: -1px;
+    }
+
+     .consultation-section .left-bar h4 {
+        font-size: 45px;
+    }
+
+     .consultation-section .left-bar .patient-count h3 {
+        font-size: 60px;
+    }
+
+     .consultation-section .left-bar .patient-count  .patient-from p:nth-child(1) {
+        font-size: 32px;
+    }
+
+     .consultation-section .left-bar .patient-count  .patient-from p:nth-child(2) {
+        font-size: 29px;
+    }
+
+    .consultation-section .right-bar .consultation-image img:nth-child(1) {
+        height: 110px;
+    }
+
+    .consultation-section .right-bar .consultation-image img:nth-child(2) {
+        height: 110px;
+    }
+
+    .consultation-section .right-bar .consultation-image img:nth-child(3) {
+        height: 335px;
+    }
+
+    .academy .left-bar .academy_img1 .academy_image img {
+        height: 130px;
+    }
+
+    .academy .left-bar .academy_img2 .academy_image img {
+        height: 130px;
+    }
+
+     .academy .right-bar .parana-academy-title {
+        font-size: 50px;   
+    }
+
+    .academy .right-bar .academy-students h3 {
+        font-size: 55px;
+    }
+
+   .academy .right-bar .academy-students .student-from-countries p {
+        font-size: 22px;
+    }
+
+    .academy .right-bar .academy-students .student-from-countries p span {
+        font-size: 22px;
+    }
+
+    .gut_story .left-bar h3 {
+        font-size: 70px;
+    } 
+
+     .gut_story .left-bar p:nth-child(2) {
+        font-size: 35px;
+    }
+
+     .gut_story .left-bar p:nth-child(4) {
+        font-size: 30px;
+    }
+
+     .gut_story .right-bar img {
+       width: 600px;
+       height: auto;
+    }
+
+     .social-media .right-bar .followers h3 {
+        font-size: 58px;
+    } 
+
+    .social-media .right-bar .followers p {
+        font-size: 24px;
+    }
+
+      .workshops .left-bar h6  {
+        font-size: 50px;
+    }
+
+    .workshops .left-bar p {
+        font-size: 25px;
+    }
+    
+   .ayurveda_detox_clinic .right-bar h6 {
+    font-size: 50px;
+   }
+
+   .subscribe_form .left-bar h6 {
+    font-size: 35px;
+   }
+
+   .subscribe_form .right-bar {
+    padding: 0 30px;
+   }
+
+   .subscribe_form .left-bar p {
+    font-size: 23px;
+   }
+
+    footer .left-bar h6 {
+    font-size: 35px;
+   }
+
+    footer .left-bar p {
+    font-size: 20px;
+   }
+
+     footer .left-bar p span {
+    font-size: 20px;
+   }
+
+    footer .middle-bar  {
+    padding-top: 70px;
+   }
+
+   footer .middle-bar .contact p {
+    font-size: 20px;
+   }
+
+     footer .middle-bar .location p {
+    font-size: 20px;
+   }
+
+   .awards .awards__slider img {
+  margin: 0 9px;
+}
+
+}
+
+@media screen and (max-width: 1199px) {
+    .header {
+        width: 100%;
+    }
+
+    .header nav ul li {
+        margin: 0.4rem; 
+    }
+
+    .header nav ul li.logo {
+        margin-bottom: 0.6rem;
+        margin-top: 0;
+        max-width: 7rem;
+    }
+
+    .bestseller .left-bar p {
+        font-size: 20px;
+    }
+
+    .bestseller .left-bar img:nth-child(2) {
+        width: 130px;
+    }
+    
+    .bestseller .left-bar img:nth-child(3) {
+        width: 150px;
+    }
+
+    .bestseller .middle-bar h4 {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    .bestseller .middle-bar h5 {
+        font-size: 24px;
+        letter-spacing: -1px;
+    }
+
+    .bestseller .middle-bar h6 {
+        font-size: 18px;
+    }
+
+    .bestseller .middle-bar a {
+        font-size: 16px;
+    }
+
+    .bestseller .right-bar img:nth-child(1) {
+        height: 300px;
+        width: 200px;
+
+    }
+
+    .bestseller .right-bar img:nth-child(2) {
+        height: 50px;
+    }
+
+    .consultation-section .left-bar .bottom-border {
+        width: 100%;
+    }
+
+    .consultation-section .left-bar .patient-count  .patient-from p:nth-child(2) {
+        font-size: 21px;
+    }
+
+    .consultation-section .left-bar a {
+        font-size: 18px;
+        line-height: 1;
+        padding: 10px 15px 10px 15px;
+    }
+
+    .consultation-section .right-bar .consultation-image img:nth-child(1) {
+        height: 100px;
+    }
+
+    .consultation-section .right-bar .consultation-image img:nth-child(2) {
+        height: 100px;
+    }
+
+    .consultation-section .right-bar .consultation-image img:nth-child(3) {
+        height: 250px;
+    }
+
+    .academy .left-bar .academy_img1 .academy_image img {
+        height: 110px;
+        margin: 3px;
+    }
+
+    .academy .left-bar .academy_img2 .academy_image img {
+        height: 110px;
+        margin: 3px;
+    }
+
+    .academy .right-bar {
+        padding: 0 20px;
+    }
+
+    .academy .right-bar .academy-students {
+        padding: 5px 5px;
+    }
+
+    .academy .right-bar .academy-students h3 {
+        font-size: 52px;
+    }
+
+    .gut_story .left-bar {
+        padding: 0 30px;
+    }
+
+    .gut_story .left-bar h3 {
+        font-size: 60px;
+    }
+
+    .gut_story .left-bar p:nth-child(4) {
+        font-size: 28px;
+    }
+
+    .gut_story .right-bar img {
+       width: 100%;
+       height: auto;
+    }
+
+    .social-media .right-bar .followers h3 {
+        font-size: 50px;
+    } 
+
+    .social-media .right-bar .followers p {
+        font-size: 20px;
+    }
+
+    .social-media .right-bar p {
+        font-size: 30px;
+        
+    }
+
+    .social-media .right-bar .social-mdia-handle img {
+        width: 70px;
+        height: auto;
+    }
+
+    .social-media .right-bar .social-mdia-handle img:nth-child(3) {
+        width: 120px;
+        height: auto;
+    }
+
+    .social-media .right-bar .social-mdia-handle img:nth-child(6)  {
+        width: 90px;
+        height: auto;
+    }
+
+    .workshops {
+       padding: 50px 0;
+    }
+
+    .workshops .left-bar {
+        padding: 0;
+    }
+
+    .workshops .left-bar p {
+        font-size: 23px;
+    }
+    
+    .workshops .right-bar img  {
+        width: 49%;
+        height: auto;
+    }
+
+    .award_honours .awards {
+        padding: 10px 0 50px 0;
+    }
+
+    .award_honours .awards h6 {
+        font-size: 50px;
+    }
+
+   .ayurveda_detox_clinic .right-bar h6 {
+    font-size: 42px;
+   }
+
+   .subscribe_form .left-bar {
+    padding: 0 30px;
+   }
+
+   .subscribe_form .left-bar h6 {
+    font-size: 33px;
+   }
+
+   .subscribe_form .left-bar p {
+    font-size: 20px;
+   }
+
+   footer .left-bar {
+    padding: 20px 0;
+   }
+
+   footer .left-bar p {
+    font-size: 16px;
+   }
+
+   footer .left-bar p span {
+    font-size: 18px;
+   }
+
+   footer .middle-bar  {
+    padding-top: 50px;
+   }
+
+   footer .middle-bar .contact img {
+    height: 40px;
+   }
+
+   footer .middle-bar .contact p  {
+    font-size: 18px;
+   }
+
+   footer .middle-bar .location p {
+    font-size: 17px;
+   }
+
+   footer .right-bar  {
+    padding: 20px 0 40px 0;
+   }
+
+   footer .right-bar h3 {
+    font-size: 20px;
+   } 
+
+   footer .right-bar p {
+    font-size: 9px;
+   }
+
+   .awards .awards__slider img {
+  margin: 0 8px;
+}
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .container {
+        max-width: 100%;
+    }
+
+    .desktopnav {
+  display: none;
+}
+
+.mobilenav,
+.sidenav {
+  display: block;
+}
+
+    .mobilenav {
+  background-color: #e1ecbb;
+  padding-bottom: 1rem;
+}
+
+.mobilenav__logo {
+  display: block;
+}
+
+.mobilenav__logo img {
+  max-width: 5rem;
+}
+
+.mobilenav__hamburger {
+  width: 32px;
+  height: 21px;
+  padding: 0.2rem;
+  cursor: pointer;
+  position: relative;
+  margin-top: 0.05rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
+  float: right;
+  z-index: 3;
+}
+
+.mobilenav__hamburger.active span:nth-of-type(1) {
+  top: unset;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.mobilenav__hamburger.active span:nth-of-type(2) {
+  opacity: 0;
+}
+
+.mobilenav__hamburger.active span:nth-of-type(3) {
+  bottom: unset;
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.mobilenav__hamburger span {
+  height: 3px;
+  display: block;
+  background: #292728;
+  border-radius: 2rem;
+  width: 90%;
+  position: absolute;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.mobilenav__hamburger span:nth-of-type(1) {
+  top: 0;
+}
+
+.mobilenav__hamburger span:nth-of-type(3) {
+  bottom: 0;
+}
+
+.sidenav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  background: #e1ecbb;
+  z-index: 2;
+  padding: 3rem;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.sidenav.active {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.sidenav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.sidenav ul li {
+  list-style: none;
+}
+
+.sidenav ul li a {
+  font-size: 1.5rem;
+  color: #292728;
+  display: block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.backdrop {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.backdrop.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.awards .awards__slider img {
+  margin: 0 7px;
+}
+
+ .bestseller .left-bar p {
+        font-size: 18px;
+    }
+
+     .bestseller .left-bar img:nth-child(2) {
+        width: 100px;
+    }
+
+    .bestseller .left-bar img:nth-child(3) {
+        width: 120px;
+    }
+
+    .bestseller .middle-bar h4 {
+        font-size: 20px;
+        
+    }
+
+    .bestseller .middle-bar h5 {
+        font-size: 18px;
+    }
+
+    .bestseller .middle-bar h6 {
+        font-size: 16px;
+    }
+
+    .bestseller .middle-bar a {
+        font-size: 14px;
+    }
+
+    .bestseller .right-bar img:nth-child(1) {
+        height: 250px;
+        width: 150px;
+
+    }
+
+     .bestseller .right-bar img:nth-child(2) {
+        height: 40px;
+    }
+
+}
