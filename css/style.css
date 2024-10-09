@@ -380,6 +380,10 @@ text-decoration: none;
   box-shadow: 11px 30px 10px -20px #00000070;
 } 
 
+.academy {
+  padding: 50px 0;
+}
+
 .academy .left-bar .academy_img1 {
   display: flex;
 }

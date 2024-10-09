@@ -366,7 +366,7 @@
    }
 
    .awards .awards__slider img {
-  margin: 0 8px;
+  margin: 0 7px;
 }
 
 }
@@ -375,7 +375,7 @@
 @media screen and (max-width: 992px) {
 
     .container {
-        max-width: 100%;
+        max-width: 90%;
     }
 
     .desktopnav {
@@ -522,11 +522,11 @@
 }
 
 .awards .awards__slider img {
-  margin: 0 7px;
+  margin: 0 5px;
 }
 
  .bestseller .left-bar p {
-        font-size: 18px;
+        font-size: 15px;
     }
 
      .bestseller .left-bar img:nth-child(2) {
@@ -538,20 +538,21 @@
     }
 
     .bestseller .middle-bar h4 {
-        font-size: 20px;
+        font-size: 17px;
         
     }
 
     .bestseller .middle-bar h5 {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .bestseller .middle-bar h6 {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .bestseller .middle-bar a {
-        font-size: 14px;
+        font-size: 10px;
+        padding: 10px;
     }
 
     .bestseller .right-bar img:nth-child(1) {
@@ -563,5 +564,473 @@
      .bestseller .right-bar img:nth-child(2) {
         height: 40px;
     }
+
+    .consultation-section .left-bar h4 {
+        font-size: 33px;
+    }
+
+        .consultation-section .left-bar .patient-count h3 {
+        font-size: 45px;
+    }
+
+    .consultation-section .left-bar .patient-count .patient-from p:nth-child(1) {
+        font-size: 25px;
+    }
+
+
+    .consultation-section .left-bar .patient-count  .patient-from p:nth-child(2) {
+        font-size: 13px;
+    }
+
+     .consultation-section .left-bar a {
+        font-size: 12px;
+        line-height: 1;
+        padding: 10px 15px 10px 15px;
+    }
+
+     .consultation-section .right-bar .consultation-image img:nth-child(1) {
+        height: 55px;
+        margin: 0 5px;
+    }
+
+      .consultation-section .right-bar .consultation-image img:nth-child(2) {
+        height: 55px;
+    }
+
+     .consultation-section .right-bar .consultation-image img:nth-child(3) {
+        height: 215px;
+    }
+
+     .academy .left-bar .academy_img1 .academy_image img {
+        height: 70px;
+        margin: 3px;
+    }
+
+    .academy .left-bar .academy_img2 .academy_image img {
+        height: 70px;
+        margin: 3px;
+    }
+
+     .academy .right-bar {
+        padding: 0 10px;
+    }
+
+   
+
+        .academy .right-bar .parana-academy-title {
+        font-size: 34px;
+    }
+
+    .academy .right-bar .academy-students h3 {
+        font-size: 35px;
+    }
+
+    .academy .right-bar .academy-students .student-from-countries p {
+        padding-left: 0;
+        font-size: 15px;
+    }
+
+        .academy .right-bar .academy-students .student-from-countries p span {
+        font-size: 14px;
+    }
+
+     .gut_story .left-bar h3 {
+        font-size: 40px;
+    }
+
+        .gut_story .left-bar p:nth-child(2) {
+        font-size: 25px;
+    }
+
+        .gut_story .left-bar p:nth-child(4) {
+        font-size: 18px;
+    }
+
+    .gut_story .left-bar .prodcast-media img {
+        height: 40px;
+        width: auto;
+        padding: 0 5px;
+    }
+
+        .social-media .right-bar .followers h3 {
+        font-size: 35px;
+    }
+
+        .social-media .right-bar .followers p {
+        font-size: 14px;
+    }
+
+        .social-media .right-bar p {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+
+        .social-media .right-bar .social-mdia-handle img {
+        width: 50px;
+        height: auto;
+    }
+
+        .social-media .right-bar .social-mdia-handle img:nth-child(3) {
+        width: 85px;
+        height: auto;
+    }
+
+        .social-media .right-bar .social-mdia-handle img:nth-child(6) {
+        width: 60px;
+        height: auto;
+    }
+
+    .social-media .right-bar .social-mdia-handle img:nth-child(3) {
+    margin: 0 -20px;
+}
+
+    .workshops .left-bar h6 {
+        font-size: 35px;
+    }
+
+        .workshops .left-bar p {
+        font-size: 15px;
+    }
+
+        .award_honours .awards h6 {
+        font-size: 35px;
+    }
+
+        .ayurveda_detox_clinic .right-bar h6 {
+        font-size: 30px;
+    }
+
+        .subscribe_form .left-bar h6 {
+        font-size: 23px;
+    }
+
+        .subscribe_form .left-bar p {
+        font-size: 15px;
+    }
+
+        .subscribe_form .right-bar {
+        padding: 0;
+    }
+
+    .subscribe_form .right-bar form input {
+        padding: 5px;
+    }
+
+    .subscribe_form .right-bar form button {
+    padding: 5px;
+    font-size: 15px;  
+}
+
+.subscribe_form .right-bar form {
+    padding: 15px;
+}
+
+    footer .left-bar h6 {
+        font-size: 30px;
+    }
+
+        footer .left-bar p {
+        font-size: 12px;
+    }
+
+          footer .left-bar p span {
+        font-size: 11px;
+    }
+
+    footer .middle-bar .contact img {
+        height: 30px;
+    }
+
+        footer .middle-bar .contact p {
+        font-size: 13px;
+    }
+
+        footer .middle-bar .contact img {
+        height: 30px;
+    }
+
+    footer .middle-bar .location img {
+        height: 40px;
+    }
+
+        footer .middle-bar .location p {
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width: 777px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .bestseller .left-bar p {
+        font-size: 12px;
+    }
+
+     .bestseller .left-bar img:nth-child(2) {
+        width: 80px;
+    }
+
+    .bestseller .left-bar img:nth-child(3) {
+        width: 100px;
+    }
+
+    .bestseller .middle-bar h4 {
+        font-size: 13px;
+        
+    }
+
+    .bestseller .middle-bar h5 {
+        font-size: 14px;
+    }
+
+    .bestseller .middle-bar h6 {
+        font-size: 10px;
+    }
+
+    .bestseller .middle-bar a {
+        font-size: 8px;
+        padding: 8px;
+    }
+
+    .bestseller .right-bar img:nth-child(1) {
+        height: 190px;
+        width: 120px;
+
+    }
+
+     .bestseller .right-bar img:nth-child(2) {
+        height: 30px;
+    }
+
+    .consultation-section .left-bar h4 {
+        font-size: 25px;
+    }
+
+    .consultation-section .left-bar .patient-count {
+    padding: 0;
+}
+
+        .consultation-section .left-bar .patient-count h3 {
+        font-size: 35px;
+    }
+
+    .consultation-section .left-bar .patient-count .patient-from p:nth-child(1) {
+        font-size: 25px;
+    }
+
+
+    .consultation-section .left-bar .patient-count  .patient-from p:nth-child(2) {
+        font-size: 13px;
+    }
+
+     .consultation-section .left-bar a {
+        font-size: 10px;
+        line-height: 1;
+        padding: 10px 15px 10px 15px;
+    }
+
+     .consultation-section .right-bar .consultation-image img:nth-child(1) {
+        display: none;
+    }
+
+      .consultation-section .right-bar .consultation-image img:nth-child(2) {
+        display: none;
+    }
+
+     .consultation-section .right-bar .consultation-image img:nth-child(3) {
+        height: 180px;
+    }
+
+     .consultation-section .right-bar .consultation-image {
+        text-align: center;
+     }
+
+     .academy .left-bar .academy_img1 .academy_image img {
+        height: 60px;
+        margin: 3px;
+    }
+
+    .academy .left-bar .academy_img2 .academy_image img {
+        height: 60px;
+        margin: 3px;
+    }
+
+     .academy .right-bar {
+        padding: 0 10px;
+    }
+
+    .academy {
+        padding: 20px 0;
+    }
+   
+
+        .academy .right-bar .parana-academy-title {
+        font-size: 30px;
+    }
+
+    .academy .right-bar .academy-students h3 {
+        font-size: 30px;
+    }
+
+    .academy .right-bar .academy-students .student-from-countries p {
+        padding-left: 0;
+        font-size: 15px;
+    }
+
+        .academy .right-bar .academy-students .student-from-countries p span {
+        font-size: 14px;
+    }
+
+     .gut_story .left-bar h3 {
+        font-size: 30px;
+    }
+
+        .gut_story .left-bar p:nth-child(2) {
+        font-size: 18px;
+    }
+
+        .gut_story .left-bar p:nth-child(4) {
+        font-size: 12px;
+    }
+
+    .gut_story .left-bar .prodcast-media img {
+        height: 30px;
+        width: auto;
+        padding: 0 5px;
+    }
+
+    .awards {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+        .social-media .right-bar .followers h3 {
+        font-size: 30px;
+    }
+
+        .social-media .right-bar .followers p {
+        font-size: 12px;
+    }
+
+        .social-media .right-bar p {
+        font-size: 15px;
+        line-height: 1;
+    }
+
+
+        .social-media .right-bar .social-mdia-handle img {
+        width: 40px;
+        height: auto;
+    }
+
+        .social-media .right-bar .social-mdia-handle img:nth-child(3) {
+        width: 70px;
+        height: auto;
+    }
+
+        .social-media .right-bar .social-mdia-handle img:nth-child(6) {
+        width: 50px;
+        height: auto;
+    }
+
+    .social-media .right-bar .social-mdia-handle img:nth-child(3) {
+    margin: 0 -20px;
+}
+
+    .workshops .left-bar h6 {
+        font-size: 30px;
+    }
+
+        .workshops .left-bar p {
+        font-size: 12px;
+    }
+
+        .workshops {
+        padding: 20px 0;
+    }
+
+        .award_honours .awards {
+        padding: 5px 0 20px 0;
+    }
+
+        .award_honours .awards h6 {
+        font-size: 30px;
+    }
+
+    .ayurveda_detox_clinic {
+    padding: 20px 0;
+}
+
+        .ayurveda_detox_clinic .right-bar h6 {
+        font-size: 24px;
+    }
+
+        .subscribe_form .left-bar h6 {
+        font-size: 18px;
+    }
+
+        .subscribe_form .left-bar p {
+        font-size: 12px;
+    }
+
+        .subscribe_form .right-bar {
+        padding: 0;
+    }
+
+    .subscribe_form .right-bar form input {
+        padding: 3px;
+    }
+
+    .subscribe_form .right-bar form button {
+    padding: 3px;
+    font-size: 10px;  
+}
+
+.subscribe_form .right-bar form {
+    padding: 10px;
+}
+
+footer {
+    margin: 20px 0 0 0;
+}
+
+    footer .left-bar h6 {
+        font-size: 20px;
+    }
+
+        footer .left-bar p {
+        font-size: 10px;
+    }
+
+          footer .left-bar p span {
+        font-size: 9px;
+    }
+
+    footer .middle-bar .contact img {
+        height: 30px;
+    }
+
+        footer .middle-bar .contact p {
+        font-size: 9px;
+    }
+
+    footer .middle-bar .location img {
+        height: 40px;
+    }
+
+        footer .middle-bar .location p {
+        font-size: 7px;
+    }
+
+    footer .right-bar h3 {
+    padding-top: 10px;
+}
+
+  .awards .awards__slider img {
+  margin: 0 4px;
+}
 
 }
