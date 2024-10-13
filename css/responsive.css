@@ -1034,3 +1034,265 @@ footer {
 }
 
 }
+
+@media screen and (max-width: 575px) {
+   
+
+    .bestseller {
+        padding-top: 10px;
+    }
+
+    .bestseller .left {
+        display: none;
+    }
+
+    .bestseller .middle {
+        width: 50%;
+    }
+
+    .bestseller .right {
+        width: 50%;  
+    }
+
+        .bestseller .middle-bar h5 {
+        font-size: 14px;
+    }
+
+    .bestseller .right-bar img:nth-child(1) {
+        height: 155px;
+        width: 110px;
+    }
+
+    .bestseller .middle-bar h4 {
+        line-height: 1;
+    }
+
+        .consultation-section .left-bar h4 {
+        font-size: 16px;
+        padding: 0;
+    }
+
+        .consultation-section .left-bar .patient-count h3 {
+        font-size: 20px;
+    }
+
+        .consultation-section .left-bar .patient-count .patient-from p:nth-child(1) {
+        font-size: 13px;
+        /* padding-left: 5px; */
+    }
+
+        .consultation-section .left-bar .patient-count .patient-from p:nth-child(2) {
+        font-size: 8px;
+        /* padding-left: 5px; */
+    }
+
+    .consultation-section .left-bar a {
+        font-size: 7px;
+        line-height: 1;
+        padding: 8px 10px 8px 10px;
+    }
+
+    .consultation-section .right-bar .consultation-image img:nth-child(3) {
+        height: 130px;
+    }
+
+    .academy .left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .academy .left-bar .academy_img1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.academy .left-bar .academy_img2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.academy .right {
+    display: none;
+}
+
+    .gut_story .left-bar h3 {
+        font-size: 20px;
+    }
+
+        .gut_story .left-bar p:nth-child(2) {
+        font-size: 10px;
+        margin: 0;
+        line-height: 1.3;
+    }
+
+    .gut_story .left-bar p:nth-child(4) {
+        font-size: 8px;
+        margin: 0;
+        padding: 2px 0;
+
+    }
+
+        .gut_story .left-bar {
+        padding: 0 20px;
+    }
+
+        .gut_story .left-bar .prodcast-media img {
+        height: 20px;
+        width: auto;
+        padding: 0 5px;
+    }
+
+        .awards .awards__slider img {
+        margin: 0px 3px;
+    }
+
+        .social-media .right-bar .followers p {
+        font-size: 8px;
+        margin: 0;
+    }
+
+        .social-media .right-bar .followers h3 {
+        font-size: 16px;
+        margin: 0;
+    }
+
+        .social-media .right-bar p {
+        font-size: 10px;
+        line-height: 1;
+        margin: 0;
+    }
+
+    .social-media .right-bar .social-mdia-handle {
+    text-align: center;
+    padding-top: 5px;
+}
+
+        .social-media .right-bar .social-mdia-handle img {
+        width: 30px;
+        height: auto;
+    }
+
+        .social-media .right-bar .social-mdia-handle img:nth-child(3) {
+        margin: 0 -20px;
+        width: 50px;
+    }
+
+        .social-media .right-bar .social-mdia-handle img:nth-child(6) {
+        width: 40px;
+        height: auto;
+    }
+
+        .workshops .left-bar h6 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+        .workshops .left-bar p {
+        font-size: 8px;
+    }
+
+    .award_honours .awards h6 {
+        font-size: 20px;
+    }
+
+    .award_honours .awards img {
+    
+    padding: 0 10px;
+}
+
+    .ayurveda_detox_clinic .right-bar h6 {
+        font-size: 16px;
+    }
+
+    .subscribe_form {
+    background-color: #FFF2EB;
+    padding: 15px 0;
+}
+
+    .subscribe_form .left-bar h6 {
+        font-size: 14px;
+    }
+
+        .subscribe_form .left-bar {
+        padding: 0;
+    }
+
+        .subscribe_form .left-bar p {
+        font-size: 9px;
+    }
+
+    
+    .subscribe_form .right-bar form input {
+        margin: 5px 0;
+    }
+
+      .subscribe_form .right-bar form input::placeholder {
+        font-size: 12px;
+        padding: 0 5px;  
+      }
+
+      footer {
+        margin: 0;
+      }
+
+
+          footer .left-bar {
+        padding: 10px 0;
+    }
+
+        .subscribe_form .right-bar form button {
+        padding: 5px;
+        font-size: 10px;
+        margin: 0;
+    }
+
+    footer .left-bar h6 {
+        font-size: 16px;
+    }
+
+    footer .left-bar p {
+        font-size: 7px;
+    }
+
+        footer .left-bar p span {
+        font-size: 7px;
+    }
+
+    footer .middle-bar .contact  {
+        padding: 0;
+        border: none;
+    }
+
+    footer .middle-bar {
+        padding-top: 30px;
+    }
+
+    footer .middle-bar .location {
+    padding: 5px 0;
+    display: -webkit-box;
+    border-left: none;
+}
+
+    footer .middle-bar .location img {
+        height: 30px;
+    }
+
+        footer .middle-bar .contact img {
+        height: 25px;
+    }
+
+        footer .right-bar p {
+        font-size: 4px;
+    }
+
+        footer .right-bar h3 {
+        font-size: 10px;
+    }
+
+
+}
+
+
+
